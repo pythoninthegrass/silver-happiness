@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "mvp"
+name = "silver-happiness"
 version = "0.0.1"
 description = ""
 authors = ["pythoninthegrass <4097471+pythoninthegrass@users.noreply.github.com>"]
@@ -7,6 +7,13 @@ license = "Unlicense"
 
 [tool.poetry.dependencies]
 python = ">=3.11,<3.13"
+Django = "^4.2.7"
+django-bootstrap-v5 = "^1.0.11"
+django-markdownx = ">=4.0.0b1"
+markdown2 = "^2.4.7"
+markdownify = "^0.11.6"
+psycopg2-binary = "^2.9.9"
+python-decouple = "^3.6"
 
 [tool.poetry.group.dev.dependencies]
 coverage = "^7.3.2"
