@@ -1,5 +1,5 @@
 # ETC
-**/django/data/
+**/app/data/
 *.sqlite*
 !*.example
 *.pem
